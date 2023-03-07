@@ -12,38 +12,38 @@ body {
 main {
   width: 70%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 section {
-  padding: 100px;
+  padding: 6.25rem;
   background-color: #eef2e6;
-  border-radius: 25px;
-  margin-bottom: 100px;
+  border-radius: 1.563rem;
+  margin-bottom: 6.25rem;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3.5rem;
   text-align: center;
   color: #3d8361;
-  padding: 50px 0px;
+  padding: 3.125rem 0rem;
   background-color: #d6cda4;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2rem;
   color: #3d8361;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 }
 
 h3 {
-  font-size: 1.5em;
-  margin-bottom: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 0.313rem;
 }
 
 p,
 li {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 a {
@@ -63,12 +63,12 @@ a:hover {
 
 nav {
   display: flex;
-  height: 100px;
+  height: 6.25rem;
   justify-content: center;
   align-items: center;
   background: #3d8361;
   position: fixed;
-  top: 0px;
+  top: 0rem;
   width: 100%;
   z-index: 3;
 }
@@ -79,8 +79,8 @@ nav ul {
 }
 nav li {
   position: relative;
-  margin: 0 30px;
-  font-size: 1.3em;
+  margin: 0 1.875rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   transition: 0.5s;
 }
@@ -88,7 +88,7 @@ nav li::after {
   position: absolute;
   content: "";
   width: 100%;
-  height: 3px;
+  height: 0.188rem;
   top: 100%;
   left: 0;
   background: #d6cda4;
@@ -113,24 +113,24 @@ nav a:hover {
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  padding: 0px 50px 50px 50px;
+  padding: 0rem 3.125rem 3.125rem 3.125rem;
 }
 
 .presentation__img {
-  width: 250px;
-  height: 250px;
+  width: 15.625rem;
+  height: 15.625rem;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .presentation__texte {
-  padding-left: 40px;
+  padding-left: 2.5rem;
   text-align: justify;
   line-height: 1.5;
 }
 
 .presentation__texte span {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #3d8361;
 }
@@ -148,18 +148,18 @@ nav a:hover {
 }
 
 .container__skill--status {
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 
 .container__skill--img.hardskill {
-  height: 100px;
+  height: 6.25rem;
 }
 
 .softskill .container__skill--img {
   border-radius: 50%;
   background-color: #3d8361;
-  border: solid 3px #d6cda4;
-  padding: 20px;
+  border: solid 0.188rem #d6cda4;
+  padding: 1.25rem;
 }
 
 .softskill:hover {
@@ -171,12 +171,12 @@ nav a:hover {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 30px;
-  padding: 0px 50px;
+  gap: 1.875rem;
+  padding: 0rem 3.125rem;
 }
 
 .grid__date {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-align: end;
 }
 
@@ -184,12 +184,12 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 0.313rem;
 }
 
 .grid__company img {
-  height: 2em;
-  margin-right: 10px;
+  height: 2rem;
+  margin-right: 0.625rem;
 }
 
 .grid__company--italic {
@@ -203,7 +203,7 @@ nav a:hover {
 }
 
 .grid__text--padding {
-  padding-left: 15px;
+  padding-left: 0.938rem;
 }
 
 .grid__list--star {
@@ -223,9 +223,9 @@ nav a:hover {
 .container--grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px;
-  gap: 30px;
-  padding: 0px 50px;
+  grid-template-rows: 12.5rem 12.5rem;
+  gap: 1.875rem;
+  padding: 0rem 3.125rem;
 }
 
 .passion {
@@ -272,12 +272,12 @@ nav a:hover {
 
 footer {
   background-color: #3d8361;
-  padding: 40px 30%;
+  padding: 2.5rem 30%;
 }
 
 footer h2 {
   color: white;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -288,9 +288,9 @@ footer h2 {
 }
 
 .contact__img {
-  height: 30px;
-  padding-right: 10px;
-  margin-bottom: 5px;
+  height: 1.875rem;
+  padding-right: 0.625rem;
+  margin-bottom: 0.313rem;
 }
 
 .container--flex > div {
@@ -305,8 +305,8 @@ footer h2 {
 }
 
 .socialnetwork__img {
-  height: 50px;
-  padding: 0px 10px;
+  height: 3.125rem;
+  padding: 0rem 0.625rem;
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
@@ -326,7 +326,7 @@ footer h2 {
   }
   .grid__date {
     text-align: center;
-    border-bottom: #3d8361 solid 2px;
+    border-bottom: #3d8361 solid 0.125rem;
   }
   .grid__company {
     flex-direction: column;
@@ -338,7 +338,7 @@ footer h2 {
   .container--grid {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
   #contact > .container--flex,
   #soft-skills > .container--flex,
@@ -350,7 +350,7 @@ footer h2 {
     text-align: center;
   }
   .socialnetwork {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
   .hardskill__text {
     width: 100%;
@@ -359,19 +359,19 @@ footer h2 {
 @media screen and (max-width: 500px) {
   section,
   footer {
-    padding: 20px;
+    padding: 1.25rem;
   }
   h2 {
     text-align: center;
   }
   .presentation__texte {
-    padding-left: 0px;
+    padding-left: 0rem;
   }
   .grid,
   .container--grid {
-    padding: 0px;
+    padding: 0rem;
   }
   #passions > h2 {
-    padding-bottom: 0px;
+    padding-bottom: 0rem;
   }
 }
