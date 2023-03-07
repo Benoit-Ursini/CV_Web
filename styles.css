@@ -218,6 +218,10 @@ nav a:hover {
   list-style-type: "\1F3C5";
 }
 
+.grid__list--inprogress {
+  list-style-type: "\1F331";
+}
+
 /* ===== PASSIONS ===== */
 
 .container--grid {
